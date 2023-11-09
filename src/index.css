@@ -31,7 +31,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
 }
 
 :root {
-  --primary-color: #f13a11;
+    /* --primary-color: #107887; */
+  --primary-color: #80AF35;
   --white-color: #ffffff;
   --dark-color: #171819;
   --about-bg-color: #f9f9f9;
@@ -68,7 +69,7 @@ body {
 
 
 /*---------------------------------------
-     TYPOGRAPHY              
+    TYPOGRAPHY              
   -----------------------------------------*/
 
 h1,
@@ -181,7 +182,7 @@ strong {
 
 
 /*---------------------------------------
-     GENERAL               
+    GENERAL               
   -----------------------------------------*/
 
 * {
@@ -229,7 +230,7 @@ a:focus {
 
 
 /*---------------------------------------
-     MODAL              
+    MODAL              
   -----------------------------------------*/
 
 .modal-content {
@@ -259,7 +260,7 @@ a:focus {
 
 
 /*---------------------------------------
-     MENU             
+    MENU             
   -----------------------------------------*/
 
 .navbar {
@@ -295,6 +296,9 @@ a:focus {
 }
 
 .navbar .social-icon li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--white-color);
 }
 
@@ -364,7 +368,7 @@ a:focus {
 }
 
 /*---------------------------------------
-     HERO              
+    HERO              
   -----------------------------------------*/
 
 .hero {
@@ -379,7 +383,7 @@ a:focus {
 
 
 /*---------------------------------------
-     CLASS               
+    CLASS               
   -----------------------------------------*/
 
 .class-info {
@@ -415,7 +419,7 @@ a:focus {
 
 
 /*---------------------------------------
-     SCHEDULE             
+    SCHEDULE             
   -----------------------------------------*/
 
 .schedule {
@@ -453,7 +457,7 @@ a:focus {
   top: 10px;
 }
 
-.table .thead-light th,
+.table .thead-light tr,
 .schedule-table tr td:first-child {
   background: var(--primary-color);
   border: 1px solid #212122;
@@ -481,7 +485,7 @@ a:focus {
 
 
 /*---------------------------------------
-      ABOUT & TEAM            
+    ABOUT & TEAM            
   -----------------------------------------*/
 
 .about {
@@ -527,36 +531,8 @@ a:focus {
 
 
 /*---------------------------------------
-     CONTACT              
+    CONTACT              
   -----------------------------------------*/
-
-.webform input,
-button#submit-button {
-  height: calc(2.25rem + 20px);
-}
-
-.form-control {
-  border-radius: var(--border-radius-small);
-  margin: 1.3rem 0;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  border-color: var(--dark-color);
-}
-
-button#submit-button {
-  background: var(--dark-color);
-  border-color: transparent;
-  color: var(--white-color);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-button#submit-button:hover {
-  background: var(--primary-color);
-}
-
 .contact h2+p {
   max-width: 90%;
 }
@@ -569,11 +545,12 @@ button#submit-button:hover {
 
 .google-map iframe {
   width: 100%;
+  border: 0;
 }
 
 
 /*---------------------------------------
-     FOOTER              
+    FOOTER              
   -----------------------------------------*/
 
 .site-footer {
@@ -597,7 +574,7 @@ button#submit-button:hover {
 
 
 /*---------------------------------------
-     SOCIAL ICON              
+    SOCIAL ICON              
   -----------------------------------------*/
 
 .social-icon {
@@ -627,7 +604,7 @@ button#submit-button:hover {
 
 
 /*---------------------------------------
-     RESPONSIVE STYLES              
+    RESPONSIVE STYLES              
   -----------------------------------------*/
 
 @media screen and (max-width: 992px) {
