@@ -2,6 +2,8 @@ import yogaImg from "../../assets/images/class/yoga-class.jpg";
 import crossfitImg from "../../assets/images/class/crossfit-class.jpg";
 import cardioImg from "../../assets/images/class/cardio-class.jpg";
 
+import Card2 from "../../Components/Card2";
+
 function Clases() {
   return (
     <>
@@ -17,77 +19,35 @@ function Clases() {
               </h2>
             </div>
 
-            <div
-              className="col-lg-4 col-md-6 col-12"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div className="class-thumb">
-                <img src={yogaImg} className="img-fluid" alt="Class" />
+            <Card2
+              estilos="col-lg-4 col-md-6 col-12"
+              aosdelay="400"
+              src={yogaImg}
+              nomClase="Pilates"
+              instructor="Bella"
+              precio="$50"
+              descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing"
+            ></Card2>
 
-                <div className="class-info">
-                  <h3 className="mb-1">Pilates</h3>
+            <Card2
+              estilos="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12"
+              aosdelay="500"
+              src={crossfitImg}
+              nomClase="Areobicos"
+              instructor="Mary"
+              precio="$66"
+              descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing"
+            ></Card2>
 
-                  <span>
-                    <strong>Trained by</strong> - Bella
-                  </span>
-
-                  <span className="class-price">$50</span>
-
-                  <p className="mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div className="class-thumb">
-                <img src={crossfitImg} className="img-fluid" alt="Class" />
-
-                <div className="class-info">
-                  <h3 className="mb-1">Areobicos</h3>
-
-                  <span>
-                    <strong>Trained by</strong> - Mary
-                  </span>
-
-                  <span className="class-price">$66</span>
-
-                  <p className="mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div className="class-thumb">
-                <img src={cardioImg} className="img-fluid" alt="Class" />
-
-                <div className="class-info">
-                  <h3 className="mb-1">Cardio</h3>
-
-                  <span>
-                    <strong>Trained by</strong> - Cathe
-                  </span>
-
-                  <span className="class-price">$75</span>
-
-                  <p className="mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                  </p>
-                </div>
-              </div>
-            </div>
+            <Card2
+              estilos="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12"
+              aosdelay="600"
+              src={cardioImg}
+              nomClase="Cardio"
+              instructor="Cathe"
+              precio="$75"
+              descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing"
+            ></Card2>
           </div>
         </div>
       </section>

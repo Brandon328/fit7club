@@ -1,5 +1,6 @@
 import teamImage from "../../assets/images/team/team-image.jpg";
 import teamImage01 from "../../assets/images/team/team-image01.jpg";
+import Card1 from "../../Components/Card1";
 
 function Nosotros() {
   return (
@@ -28,53 +29,21 @@ function Nosotros() {
               </p>
             </div>
 
-            <div
-              className="ml-lg-auto col-lg-3 col-md-6 col-12"
-              data-aos="fade-up"
-              data-aos-delay="700"
-            >
-              <div className="team-thumb">
-                <img src={teamImage} className="img-fluid" alt="Trainer" />
+            <Card1
+              src={teamImage}
+              aosdelay="700"
+              name="Mary Yan"
+              ocupacion="Instructor de Pilates"
+              estilos="ml-lg-auto col-lg-3 col-md-6 col-12"
+            ></Card1>
 
-                <div className="team-info d-flex flex-column">
-                  <h3>Mary Yan</h3>
-                  <span>Instructor de Yoga</span>
-
-                  <ul className="social-icon mt-3">
-                    <li>
-                      <a href="#" className="fa fa-twitter"></a>
-                    </li>
-                    <li>
-                      <a href="#" className="fa fa-instagram"></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="mr-lg-auto mt-5 mt-lg-0 mt-md-0 col-lg-3 col-md-6 col-12"
-              data-aos="fade-up"
-              data-aos-delay="800"
-            >
-              <div className="team-thumb">
-                <img src={teamImage01} className="img-fluid" alt="Trainer" />
-
-                <div className="team-info d-flex flex-column">
-                  <h3>Catherina</h3>
-                  <span>Entrenadora</span>
-
-                  <ul className="social-icon mt-3">
-                    <li>
-                      <a href="#" className="fa fa-instagram"></a>
-                    </li>
-                    <li>
-                      <a href="#" className="fa fa-facebook"></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            <Card1
+              src={teamImage01}
+              aosdelay="800"
+              name="Catherina"
+              ocupacion="Entrenadora"
+              estilos="mr-lg-auto mt-5 mt-lg-0 mt-md-0 col-lg-3 col-md-6 col-12"
+            ></Card1>
           </div>
         </div>
       </section>
