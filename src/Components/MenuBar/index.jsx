@@ -1,5 +1,6 @@
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
+import Logo from "../../assets/images/logo.png";
 
 function MenuBar() {
   return (
@@ -8,7 +9,7 @@ function MenuBar() {
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
           <a className="navbar-brand" href="index.html">
-            Fit7Club
+            <img className="rounded-circle w-25 mr-3" src={Logo} alt="logo" />
           </a>
 
           <button

@@ -8,7 +8,7 @@ function Footer() {
       <footer className="site-footer">
         <div className="container">
           <div className="row">
-            <div className="ml-auto col-lg-4 col-md-5">
+            <div className="col-lg-6">
               <p className="copyright-text">
                 Copyright &copy; 2020 Gymso Fitness Co.
                 <br />
@@ -16,7 +16,7 @@ function Footer() {
               </p>
             </div>
 
-            <div className="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+            <div className="d-flex justify-content-end col-lg-6 col-12">
               <ul className="social-icon ml-lg-3">
                 <li>
                   <a
