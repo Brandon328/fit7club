@@ -1,3 +1,5 @@
+import { HiLocationMarker } from "react-icons/hi";
+
 function Contacto() {
   return (
     <>
@@ -19,7 +21,7 @@ function Contacto() {
                 data-aos="fade-up"
                 data-aos-delay="800"
               >
-                <i className="fa fa-map-marker mr-1"></i>
+                <HiLocationMarker className="mr-1" />
                 Jr Ayacucho 308 Huancayo, Huancayo, Peru
               </p>
               <div

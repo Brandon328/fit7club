@@ -1,3 +1,5 @@
+import { FaRegCalendarAlt } from "react-icons/fa";
+
 function Horario() {
   return (
     <>
@@ -26,7 +28,7 @@ function Horario() {
                 <thead className="thead-light">
                   <tr>
                     <td>
-                      <i className="fa fa-calendar"></i>
+                      <FaRegCalendarAlt></FaRegCalendarAlt>
                     </td>
                     <td>Lun</td>
                     <td>Mar</td>

@@ -60,6 +60,7 @@ function MenuBar() {
             <ul className="social-icon ml-lg-3">
               <li>
                 <a
+                  className="ml-3"
                   href="https://www.facebook.com/Fit7Club"
                   target="_blank"
                   rel="noreferrer"
@@ -69,6 +70,7 @@ function MenuBar() {
               </li>
               <li>
                 <a
+                  className="ml-3"
                   href="https://www.instagram.com/fit7club/"
                   target="_blank"
                   rel="noreferrer"
@@ -78,6 +80,7 @@ function MenuBar() {
               </li>
               <li>
                 <a
+                  className="ml-3"
                   href="https://wa.me/+51977200700"
                   target="_blank"
                   rel="noreferrer"

@@ -537,6 +537,10 @@ a:focus {
   max-width: 90%;
 }
 
+.contact svg{
+  color: var(--primary-color);
+}
+
 .google-map {
   border-top: 1px solid #efebeb;
   margin-top: 2.5rem;
@@ -594,7 +598,6 @@ a:focus {
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-bold);
-  margin: 5px 10px;
   text-align: center;
 }
 

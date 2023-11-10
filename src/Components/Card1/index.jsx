@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
 function Card1({ src, aosdelay, name, ocupacion, estilos }) {
   return (
     <>
@@ -13,10 +14,14 @@ function Card1({ src, aosdelay, name, ocupacion, estilos }) {
 
             <ul className="social-icon mt-3">
               <li>
-                <a href="#" className="fa fa-twitter"></a>
+                <a href="#">
+                  <FaFacebookF></FaFacebookF>
+                </a>
               </li>
               <li>
-                <a href="#" className="fa fa-instagram"></a>
+                <a href="#">
+                  <BsInstagram></BsInstagram>
+                </a>
               </li>
             </ul>
           </div>
