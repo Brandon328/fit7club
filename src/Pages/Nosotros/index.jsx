@@ -1,5 +1,5 @@
-import teamImage from "/public/images/team/team-image.jpg";
-import teamImage01 from "/public/images/team/team-image01.jpg";
+import teamImage from "/images/team/team-image.jpg";
+import teamImage01 from "/images/team/team-image01.jpg";
 import Card1 from "../../Components/Card1";
 
 function Nosotros() {
