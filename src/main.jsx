@@ -8,7 +8,11 @@ import "./index.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
-AOS.init();
+AOS.init({
+  disable: "mobile",
+  duration: 800,
+  anchorPlacement: "center-bottom",
+});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
