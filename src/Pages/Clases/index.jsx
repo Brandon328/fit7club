@@ -1,6 +1,6 @@
-import yogaImg from "../../assets/images/class/yoga-class.jpg";
-import crossfitImg from "../../assets/images/class/crossfit-class.jpg";
-import cardioImg from "../../assets/images/class/cardio-class.jpg";
+import yogaImg from "/images/class/yoga-class.jpg";
+import crossfitImg from "/images/class/crossfit-class.jpg";
+import cardioImg from "/images/class/cardio-class.jpg";
 
 import Card2 from "../../Components/Card2";
 
