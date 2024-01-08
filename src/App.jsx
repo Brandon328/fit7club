@@ -3,7 +3,6 @@ import Hero from "./Pages/Hero";
 import Features from "./Pages/Features";
 import Nosotros from "./Pages/Nosotros";
 import Clases from "./Pages/Clases";
-import Horario from "./Pages/Horario";
 import Contacto from "./Pages/Contacto";
 import Footer from "./Pages/Footer";
 import Modal from "./Components/Modal";
@@ -16,7 +15,6 @@ function App() {
       <Features></Features>
       <Nosotros></Nosotros>
       <Clases></Clases>
-      <Horario></Horario>
       <Contacto></Contacto>
       <Footer></Footer>
       <Modal></Modal>

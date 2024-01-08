@@ -45,12 +45,6 @@ function MenuBar() {
               </li>
 
               <li className="nav-item">
-                <a href="#schedule" className="nav-link smoothScroll">
-                  Horario
-                </a>
-              </li>
-
-              <li className="nav-item">
                 <a href="#contact" className="nav-link smoothScroll">
                   Contacto
                 </a>
